@@ -1,0 +1,261 @@
+body {
+  background-color: #f6f6f6;
+  color: #222222;
+  font-size: 16px;
+}
+
+main {
+  padding: 2em !important;
+}
+
+#page-header {
+  background-color: #fff;
+  padding: 1.6em;
+}
+
+#page-header a {
+  color: #333333;
+}
+
+
+
+/*********************************************
+* Styling for login-button and logout-button *
+*********************************************/
+.login-button, .logout-button {
+  border-radius: 1000px;
+  font-family: 'Inconsolata';
+  font-weight: 700;
+  margin: 0.5em 0 0 0;
+  vertical-align: middle;
+}
+
+
+
+/***********************************************
+* General styling for info-panel and its child *
+***********************************************/
+.info-panel {
+  display: inline-block;
+  vertical-align:bottom;
+}
+
+.info-panel .info-image {
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+
+.info-panel .info-content {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.info-panel .info-content .content-title {
+  font-family: "Roboto Slab";
+}
+
+.info-panel .info-content .content-description {
+  font-family: "Roboto";
+}
+
+
+
+/***************************************
+* Styling for logo-panel and its child *
+***************************************/
+#logo-panel .content-title {
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+#logo-panel .content-description {
+  color: #AAAAAA;
+  font-family: "Inconsolata";
+  font-size: 1.125em;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+
+
+/************************************
+* Styling for sidebar and its child *
+************************************/
+#sidebar {
+  background-color: #364a5d;
+  height: 690px;
+  padding: 2em 0 0em 0;
+}
+
+#sidebar ul {
+  font-size: 0.8em;
+}
+
+#sidebar li a {
+  color: #fff;
+  padding-left: 1.6em;
+  padding-right: 1.6em;
+}
+
+#sidebar li.active a {
+  background-color: #2d3d4d;
+  border-right: 4px solid #80D8FF;
+}
+
+#sidebar li:hover a {
+  background-color: #2D3D4D;
+}
+
+#sidebar li a i {
+  margin-right: 0.8em;
+}
+
+#profile-badge {
+  padding-bottom: 2em;
+  padding-top: 0.4em;
+  text-align: center;
+}
+
+#profile-badge img {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-bottom: 1em;
+  width: 50%;
+}
+
+#profile-badge .profile-info {
+  color: #fff;
+  font-weight: 400;
+}
+
+#profile-badge .name {
+  display: block;
+  font-size: 1em;
+}
+
+#profile-badge .course {
+  display: block;
+  color: #aaa;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+
+
+/**************************************
+* Styling for info-card and its child *
+**************************************/
+.action-card {
+  background-color: #fff;
+  /*border: 3px dashed #2d3d4d;*/
+  color: #2d3d4d;
+  margin-bottom: 0.8em;
+  padding: 2em 1em;
+  text-align: center;
+}
+
+.action-card i {
+  display: block;
+  font-size: 3em;
+  margin-bottom: 0.3em;
+}
+
+.action-card span {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+
+
+/**************************************
+* Styling for info-card and its child *
+**************************************/
+.info-card {
+  background-color: #fff;
+  margin-bottom: 0.8em;
+  margin-top: 0.8em;
+}
+
+.info-card .card-title {
+  background-color:#2d3d4d;
+  color: #fff;
+  padding: 0.7em 1em;
+}
+
+.info-card .card-content {
+  padding: 0.7em 1em;
+}
+
+
+
+/*****************
+* Other stylings *
+*****************/
+.row.full-width {
+  max-width: 100%;
+  width: 100%;
+}
+
+/****************
+* Media Queries *
+****************/
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  body {
+    font-size: 14px;
+  }
+
+  .info-panel .info-image {
+    margin-right: 0.2em;
+  }
+
+  #page-header {
+    padding: 1em;
+  }
+
+  .login-button, .logout-button {
+    display: none;
+  }
+
+  #logo-panel .info-image {
+    height: 42px;
+  }
+
+  #logo-panel .content-title {
+    font-size: 1.2em;
+  }
+
+  #logo-panel .content-description {
+    font-size: 1em;
+  }
+
+  #sidebar {
+    height: auto;
+  }
+
+  .action-card {
+    height: auto;
+    padding: 1.2em 1em;
+  }
+
+  .action-card i {
+    font-size: 2em;
+  }
+
+  .action-card span {
+    font-size: 1em;
+  }
+}
+
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  body {
+    font-size: 14px;
+  }
+
+  .action-card {
+    height: auto;
+  }
+}

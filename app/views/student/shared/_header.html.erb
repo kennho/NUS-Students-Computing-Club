@@ -1,0 +1,25 @@
+<header id='page-header' class='column row full-width clearfix'>
+  <%= link_to root_path do %>
+    <div id='logo-panel' class='info-panel'>
+      <%= image_tag 'shared/logos/compclub/compclub_logo_thumb.png', class: 'info-image' %>
+
+      <div class='info-content'>
+        <div class='content-title'>
+          NUS Computing Club
+        </div>
+
+        <div class='content-description'>
+          // student_portal
+        </div>
+      </div>
+    </div>
+  <% end %>
+
+  <span data-responsive-toggle='sidebar' data-hide-for='medium'>
+    <button class='float-right' type='button' data-toggle>
+      <i class="material-icons">&#xE5D2;</i>
+    </button>
+  </span>
+
+  <%= link_to 'IVLE Login', '/authentication/login', { :class => 'login-button success hollow button float-right' } %>
+</header>

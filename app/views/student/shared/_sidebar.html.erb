@@ -1,0 +1,24 @@
+<div id='sidebar' class='medium-3 large-2 column'>
+  <div id='profile-badge'>
+    <%= image_tag 'student/profile/kenneth.jpg' %>
+
+    <div class='profile-info'>
+      <span class='name'>Kenneth Ho Chee Chong</span>
+      <span class='course'>Computer Science, Year 2</span>
+    </div>
+  </div>
+
+  <nav>
+    <ul class="dropdown menu vertical" data-dropdown-menu>
+      <li class='active'>
+        <%= link_to root_path do %>
+          <i class="material-icons">&#xE871;</i><span>Dashboard</span>
+        <% end %>
+      </li>
+      <li><a href="#"><i class="material-icons">&#xE850;</i><span>Locker</span></a></li>
+      <li><a href="#"><i class="material-icons">&#xE8CC;</i><span>Loan</span></a></li>
+      <li><a href="#"><i class="material-icons">&#xE8AF;</i><span>FAQ</span></a></li>
+      <li><a href='#'><i class="material-icons">&#xE0CD;</i><span>Contact</span></a></li>
+    </ul>
+  </nav>
+</div>
